@@ -23,8 +23,7 @@ let accountState; /* Gives output as undefined */
 // } /* Scope */ 
 
 
-
-console.log([accountEmail,accountCity,accountPaasword,accountId,accountState]);
+console.table([accountEmail,accountCity,accountPaasword,accountId,accountState]);
 
 
 
