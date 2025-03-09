@@ -14,4 +14,3 @@ console.log(typeof age); => string
 
 
 
-
