@@ -26,14 +26,11 @@ converts the above string to number
 number
 */
 
-let age = "33abc"
-let valueInNumber = Number(age)
-console.log(typeof valueInNumber);
+//let age = "33abc"
+// let valueInNumber = Number(age)
+// console.log(typeof valueInNumber);
 
-console.log(valueInNumber);
-
-/*NaN */
-
+// console.log(valueInNumber); => NaN
 
 
 // string in numbers with characters
@@ -49,3 +46,16 @@ console.log(valueInNumber);
 //let valueInNumber = Number(age)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber); /* Gives output as 0 (this case occurs sometimes when it is not able to convert properly) */
+
+
+//let age = undefined
+//let valueInNumber = Number(age)
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber); /* Gives output as NAN */
+
+// Conversion of boolean
+
+// let age = true 
+// let valueInNumber = Number(age)
+// console.log(typeof valueInNumber); => number
+// console.log(valueInNumber); /* Gives output as 1 if false it gives as 0*/
