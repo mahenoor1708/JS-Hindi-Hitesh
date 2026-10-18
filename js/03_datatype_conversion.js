@@ -18,7 +18,7 @@ console.log(typeof (age)); (second method to write this)
 // Conversion of number into string
 
 // let age = "33"
-// let valueInNumber = Number(age)
+// let valueInNumber = Number(age) => (Number is always used in Capital and data types is used as same String etc )
 // console.log(typeof valueInNumber);
 
 /*
@@ -33,6 +33,7 @@ console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
 /*NaN */
+
 
 
 // string in numbers with characters
