@@ -135,7 +135,26 @@ let str3 = str1 + str2;
 // console.log("1" + 2 + 2); => 122
 // console.log(1 + 2 + "2"); => 32
 
-// console.log(3+4) ; => 32
+// console.log((3+4) * 5 % 3) ;
+
+// console.log(+true) => not clean always should be clean and redable output as 1
+
+// console.log(+"") => 0 as empty string is false 
+
+// let num1 , num2 , num3
+
+// num1= num2 = num3 = 2 + 2 => not preferred as difficulty reading and no consistency
+
+// let gameCounter = 100
+
+// gameCounter++;
+
+// prefix => ++gameCounter (the increment operator increments and returns the value after incrementing,the increment operator increments and returns the value after incrementing )
+
+// postfix => gameCounter++ (the increment operator increments and returns the value before incrementing ,Use the current value first, then increase it by 1)
+
+// console.log(gameCounter) => 101
+
 
 
 
